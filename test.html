@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <script src= 'https://statics.teams.cdn.office.net/sdk/v1.6.0/js/MicrosoftTeams.min.js'></script>
 </head>
+
 <body>
-
-<h1>This is my Static Web App</h1>
-<p>This is a paragraph.</p>
-
+    <script>
+                           microsoftTeams.initialize();
+                     microsoftTeams.executeDeepLink("https://teams.microsoft.com/l/channel/19%3AsOgeSnWy8EReKOgCDJh8B2kkRLXSTFSQ8uCnwoMyPZ81%40thread.tacv2/tab%3A%3Ad96038f6-b8b9-442e-8abb-c3cafcbb3a8e?groupId=4c650d03-7d44-45f4-9698-4b2be1ea7aa2&tenantId=7a061f9b-6449-470f-9a68-ae5929da0007");
+    </script>
 </body>
 </html>
